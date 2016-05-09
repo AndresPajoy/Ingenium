@@ -1,0 +1,646 @@
+fileFormatVersion: 2
+guid: 34daf80a0cb299641b660b00e77d43c6
+timeCreated: 1462750538
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: player-spritemap-v9-greypants_0
+    21300002: player-spritemap-v9-greypants_1
+    21300004: player-spritemap-v9-greypants_2
+    21300006: player-spritemap-v9-greypants_3
+    21300008: player-spritemap-v9-greypants_4
+    21300010: player-spritemap-v9-greypants_5
+    21300012: player-spritemap-v9-greypants_6
+    21300014: player-spritemap-v9-greypants_7
+    21300016: player-spritemap-v9-greypants_8
+    21300018: player-spritemap-v9-greypants_9
+    21300020: player-spritemap-v9-greypants_10
+    21300022: player-spritemap-v9-greypants_11
+    21300024: player-spritemap-v9-greypants_12
+    21300026: player-spritemap-v9-greypants_13
+    21300028: player-spritemap-v9-greypants_14
+    21300030: player-spritemap-v9-greypants_15
+    21300032: player-spritemap-v9-greypants_16
+    21300034: player-spritemap-v9-greypants_17
+    21300036: player-spritemap-v9-greypants_18
+    21300038: player-spritemap-v9-greypants_19
+    21300040: player-spritemap-v9-greypants_20
+    21300042: player-spritemap-v9-greypants_21
+    21300044: player-spritemap-v9-greypants_22
+    21300046: player-spritemap-v9-greypants_23
+    21300048: player-spritemap-v9-greypants_24
+    21300050: player-spritemap-v9-greypants_25
+    21300052: player-spritemap-v9-greypants_26
+    21300054: player-spritemap-v9-greypants_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 30
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: player-spritemap-v9-greypants_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 24}
+        - {x: -13, y: 17}
+        - {x: -13, y: -25}
+        - {x: 9, y: -25}
+        - {x: 13, y: -16}
+        - {x: 13, y: 9}
+        - {x: 7, y: 24}
+    - name: player-spritemap-v9-greypants_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 150
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -25}
+        - {x: 13, y: 1}
+        - {x: 12, y: 7}
+        - {x: 8, y: 9}
+        - {x: -3, y: 9}
+        - {x: -12, y: -3}
+        - {x: -17, y: -11}
+        - {x: -19, y: -16}
+        - {x: -19, y: -25}
+        - {x: -1, y: -25}
+        - {x: 2, y: -23}
+        - {x: 1, y: -23}
+        - {x: 5, y: -25}
+    - name: player-spritemap-v9-greypants_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 150
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -23}
+        - {x: 16, y: -21}
+        - {x: 11, y: 6}
+        - {x: 3, y: 23}
+        - {x: -12, y: 23}
+        - {x: -16, y: 22}
+        - {x: -17, y: 9}
+        - {x: -17, y: -25}
+        - {x: -7, y: -25}
+        - {x: -4, y: -21}
+        - {x: 8, y: -25}
+        - {x: 14, y: -25}
+    - name: player-spritemap-v9-greypants_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 150
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -19}
+        - {x: 20, y: 17}
+        - {x: 7, y: 23}
+        - {x: -8, y: 23}
+        - {x: -17, y: 11}
+        - {x: -17, y: -25}
+        - {x: -7, y: -25}
+        - {x: -4, y: -21}
+        - {x: 8, y: -25}
+        - {x: 14, y: -25}
+    - name: player-spritemap-v9-greypants_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 150
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 23}
+        - {x: -16, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 16}
+        - {x: 10, y: 23}
+    - name: player-spritemap-v9-greypants_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 150
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 3}
+        - {x: 9, y: 21}
+        - {x: 6, y: 23}
+        - {x: -8, y: 23}
+        - {x: -16, y: 11}
+    - name: player-spritemap-v9-greypants_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 150
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 24}
+        - {x: -14, y: 12}
+        - {x: -14, y: -25}
+        - {x: 2, y: -25}
+        - {x: 12, y: -8}
+        - {x: 12, y: 19}
+        - {x: 7, y: 24}
+    - name: player-spritemap-v9-greypants_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 150
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 23}
+        - {x: -13, y: 14}
+        - {x: -13, y: -10}
+        - {x: -5, y: -25}
+        - {x: 12, y: -25}
+        - {x: 12, y: 23}
+    - name: player-spritemap-v9-greypants_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 19}
+        - {x: -17, y: 17}
+        - {x: -17, y: -3}
+        - {x: -12, y: -11}
+        - {x: -8, y: -9}
+        - {x: -5, y: -6}
+        - {x: -5, y: -3}
+        - {x: -5, y: -11}
+        - {x: -12, y: -21}
+        - {x: -11, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 6}
+        - {x: -2, y: 19}
+    - name: player-spritemap-v9-greypants_9
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 100
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 11}
+        - {x: -14, y: 6}
+        - {x: -17, y: -7}
+        - {x: -17, y: -25}
+        - {x: 16, y: -25}
+        - {x: 16, y: -2}
+        - {x: -2, y: 11}
+    - name: player-spritemap-v9-greypants_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 100
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 25}
+        - {x: -12, y: 25}
+        - {x: -13, y: 23}
+        - {x: -17, y: 9}
+        - {x: -17, y: -5}
+        - {x: -14, y: -25}
+        - {x: -2, y: -25}
+        - {x: 11, y: -7}
+        - {x: 11, y: 16}
+        - {x: 10, y: 21}
+    - name: player-spritemap-v9-greypants_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 100
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -16, y: 9}
+        - {x: -16, y: -9}
+        - {x: -14, y: -25}
+        - {x: 8, y: -25}
+        - {x: 19, y: -11}
+        - {x: 19, y: 20}
+        - {x: 2, y: 25}
+    - name: player-spritemap-v9-greypants_12
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 100
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -15, y: 17}
+        - {x: -15, y: -19}
+        - {x: -13, y: -25}
+        - {x: -5, y: -25}
+        - {x: 15, y: -8}
+        - {x: 15, y: 16}
+        - {x: 2, y: 25}
+    - name: player-spritemap-v9-greypants_13
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 100
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 25}
+        - {x: -10, y: 25}
+        - {x: -15, y: 16}
+        - {x: -15, y: -12}
+        - {x: -13, y: -25}
+        - {x: -6, y: -25}
+        - {x: 12, y: -7}
+        - {x: 12, y: 5}
+    - name: player-spritemap-v9-greypants_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 14}
+        - {x: -20, y: 3}
+        - {x: -17, y: -6}
+        - {x: -9, y: -17}
+        - {x: -3, y: -19}
+        - {x: -1, y: -19}
+        - {x: 1, y: -15}
+        - {x: 1, y: -12}
+        - {x: -1, y: -9}
+        - {x: 7, y: -17}
+        - {x: 12, y: -19}
+        - {x: 23, y: -19}
+        - {x: 23, y: 8}
+        - {x: 3, y: 14}
+    - name: player-spritemap-v9-greypants_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 50
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -3}
+        - {x: -19, y: -23}
+        - {x: -18, y: -25}
+        - {x: 23, y: -25}
+        - {x: 23, y: -13}
+        - {x: 9, y: -3}
+    - name: player-spritemap-v9-greypants_16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 50
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -18, y: -4}
+        - {x: -19, y: -10}
+        - {x: -19, y: -25}
+        - {x: 13, y: -25}
+        - {x: 13, y: 4}
+        - {x: 1, y: 14}
+    - name: player-spritemap-v9-greypants_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 50
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 3}
+        - {x: 20, y: 4}
+        - {x: 1, y: 14}
+        - {x: -5, y: 14}
+        - {x: -9, y: 9}
+        - {x: -18, y: -12}
+        - {x: -20, y: -16}
+        - {x: -20, y: -25}
+        - {x: 21, y: -25}
+    - name: player-spritemap-v9-greypants_18
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 50
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -4}
+        - {x: -19, y: -17}
+        - {x: -19, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 9}
+        - {x: 16, y: 14}
+        - {x: -4, y: 14}
+        - {x: -6, y: 12}
+    - name: player-spritemap-v9-greypants_19
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 50
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -16}
+        - {x: -19, y: -25}
+        - {x: 13, y: -25}
+        - {x: 13, y: -1}
+        - {x: 10, y: 12}
+        - {x: 3, y: 14}
+        - {x: -5, y: 14}
+        - {x: -7, y: 13}
+    - name: player-spritemap-v9-greypants_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 10}
+        - {x: 15, y: 17}
+        - {x: -7, y: 17}
+        - {x: -20, y: -11}
+        - {x: -20, y: -25}
+        - {x: -13, y: -25}
+        - {x: -11, y: -23}
+        - {x: 2, y: -23}
+        - {x: 18, y: -6}
+    - name: player-spritemap-v9-greypants_21
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: -7}
+        - {x: 13, y: -7}
+        - {x: 17, y: -3}
+        - {x: 17, y: 8}
+        - {x: 13, y: 16}
+        - {x: 3, y: 16}
+        - {x: -5, y: 13}
+        - {x: -13, y: 5}
+        - {x: -23, y: -4}
+        - {x: -23, y: -16}
+        - {x: -4, y: -25}
+        - {x: 15, y: -25}
+        - {x: 17, y: -21}
+        - {x: 17, y: -19}
+        - {x: 11, y: -10}
+    - name: player-spritemap-v9-greypants_22
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 17}
+        - {x: -1, y: 17}
+        - {x: -17, y: -4}
+        - {x: -17, y: -19}
+        - {x: -6, y: -24}
+        - {x: -4, y: -25}
+        - {x: 10, y: -25}
+        - {x: 19, y: -8}
+        - {x: 19, y: 11}
+        - {x: 17, y: 14}
+    - name: player-spritemap-v9-greypants_23
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 14}
+        - {x: 9, y: 17}
+        - {x: 1, y: 17}
+        - {x: -8, y: 10}
+        - {x: -13, y: -9}
+        - {x: -13, y: -25}
+        - {x: -1, y: -25}
+        - {x: 7, y: -13}
+        - {x: 13, y: -2}
+        - {x: 14, y: 4}
+    - name: player-spritemap-v9-greypants_24
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 10}
+        - {x: 14, y: 17}
+        - {x: 2, y: 17}
+        - {x: -12, y: 8}
+        - {x: -20, y: -17}
+        - {x: -20, y: -21}
+        - {x: -16, y: -25}
+        - {x: -13, y: -25}
+        - {x: -10, y: -24}
+        - {x: 2, y: -24}
+        - {x: 17, y: -7}
+    - name: player-spritemap-v9-greypants_25
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 16}
+        - {x: -23, y: 1}
+        - {x: -23, y: -18}
+        - {x: -6, y: -25}
+        - {x: 15, y: -25}
+        - {x: 18, y: -21}
+        - {x: 18, y: 14}
+        - {x: 16, y: 16}
+    - name: player-spritemap-v9-greypants_26
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 17}
+        - {x: -16, y: 3}
+        - {x: -16, y: -17}
+        - {x: -7, y: -25}
+        - {x: 3, y: -25}
+        - {x: 7, y: -24}
+        - {x: 15, y: -5}
+        - {x: 15, y: 17}
+    - name: player-spritemap-v9-greypants_27
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 17}
+        - {x: -3, y: 17}
+        - {x: -14, y: 3}
+        - {x: -14, y: -24}
+        - {x: -12, y: -25}
+        - {x: -1, y: -25}
+        - {x: 8, y: -13}
+        - {x: 14, y: -1}
+        - {x: 14, y: 13}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
