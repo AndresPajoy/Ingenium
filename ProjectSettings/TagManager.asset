@@ -15,6 +15,7 @@ TagManager:
   - HealthBar
   - StartBound
   - FinishBound
+  - Ground
   layers:
   - Default
   - TransparentFX

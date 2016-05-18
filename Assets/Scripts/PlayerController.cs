@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[RequireComponent(typeof(Rigidbody2D), typeof(Animator))]
+[RequireComponent( typeof( Rigidbody2D ), typeof( Animator ) )]
 public class PlayerController : MonoBehaviour
 {
     #region  Fields
@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour
     private int m_RunSpeed;
     [SerializeField]
     private int m_JumpForce;
+
+    [SerializeField]
+    private bool m_IsGrounded;
     #endregion
 
     #region Unity API
@@ -20,15 +23,25 @@ public class PlayerController : MonoBehaviour
         m_Rigidbody = GetComponent<Rigidbody2D>();
         m_Animator = GetComponent<Animator>();
     }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if ( collision.transform.CompareTag("Ground") )
+        {
+            m_IsGrounded = true;
+        }
+    }
+
+
     #endregion
 
     #region Automatic player movement
-    private void Run()
+    public void Run()
     {
-        m_Rigidbody.velocity = new Vector2( m_RunSpeed, 0f );
+        m_Rigidbody.velocity = new Vector2( m_RunSpeed, m_Rigidbody.velocity.y );
     }
 
-    private void Stop()
+    public void Stop()
     {
         m_Rigidbody.velocity = new Vector2( 0f, 0f );
     }
@@ -37,7 +50,11 @@ public class PlayerController : MonoBehaviour
     #region Public Interface
     public void Jump()
     {
-        m_Rigidbody.AddForce( new Vector2( 0f, m_JumpForce ), ForceMode2D.Impulse );
+        if ( m_IsGrounded )
+        {
+            m_Rigidbody.AddForce( new Vector2( 0f, m_JumpForce ), ForceMode2D.Impulse );
+            m_IsGrounded = false;
+        }
     }
 
     public void Slide()

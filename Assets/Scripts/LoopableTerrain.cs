@@ -4,22 +4,18 @@ using System.Collections.Generic;
 
 public class LoopableTerrain : MonoBehaviour
 {
-    public bool isActive;
+    public bool isUsable;
 
-    private void Awake()
+    private void Start()
     {
-        isActive = false;
+        isUsable = false;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if ( collision.CompareTag( "StartBound" ) )
-        {
-            TerrainManager.Instance.SeedTerrain();
-        }
         if ( collision.CompareTag( "FinishBound" ) )
         {
-            isActive = false;
+            isUsable = true;
         }
     }
 
@@ -27,11 +23,7 @@ public class LoopableTerrain : MonoBehaviour
     {
         if ( collision.CompareTag( "StartBound" ) )
         {
-            isActive = true;
-        }
-        if ( collision.CompareTag( "FinishBound" ) )
-        {
-            TerrainManager.Instance.PreapareForRelocation( this.gameObject );
+            isUsable = false;
         }
     }
 }
